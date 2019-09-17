@@ -46,7 +46,7 @@ class App extends React.Component{
         </div>
          <div>
            {this.state.todos.map((todo,index)=>(
-             <Todo todo={todo} mouseClick={this.removeTodo.bind(this,index)}/>
+             <Todo todo={todo} mouseClick={this.removeTodo.bind(this)}/>
            ))}
          </div>
       </div>
